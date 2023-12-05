@@ -1,4 +1,4 @@
-import sequelize from "../config/seq.config";
+import sequelize from "../config/seq.config.js";
 import {Model, DataTypes} from "sequelize";
 
 class Song extends Model{
@@ -27,7 +27,7 @@ Song.init({
     },
     {
   sequelize,
-  modelName: "Song"  
+  modelName: "song"  
 });
 
 export default Song;

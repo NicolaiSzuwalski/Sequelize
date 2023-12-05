@@ -1,5 +1,5 @@
 import express from 'express';
-import sequelize from '../config/seq.config';
+import sequelize from '../config/seq.config.js';
 import Song from "../models/song.models.js";
 
 
